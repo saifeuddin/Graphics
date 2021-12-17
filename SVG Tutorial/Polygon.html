@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        svg {
+            background-color: aqua;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SVG Polygon - &lt; polygon &gt; </h1>
+        <p>
+            The polygon element is used to create a graphic that contains at least three sides.
+        </p>
+        <p>
+            Polygons are made of straight lines and the shape is "closed" (all the lines connect up).
+        </p>
+        <b>
+            Polygon comes from Greek. "Poly" means "many" and "gon" means "angle".
+        </b>
+        <br>
+        <br>
+        <br>
+        <h3>Example 1</h3>
+
+        <svg height="210" width="500">
+            <polygon points="200,10  260,150 140,200" style="fill:lime; stroke: blueviolet; stroke-width:2" />
+        </svg>
+
+        <h3>Example 2</h3>
+        <svg height="210" width="500">
+            <polygon points="200,10  260,170 160,190 140,180" style="fill:lime; stroke: blueviolet; stroke-width:1" />
+        </svg>
+
+
+
+
+        <h3>Example 2</h3>
+        <p>
+            Use the polygon element to create a star:
+        </p>
+        <svg height="210" width="500">
+            <polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:lime; stroke: blueviolet; stroke-width:5; fill-rule: evenodd; "/>
+        </svg>
+
+
+        <svg height="210" width="500">
+            <polygon points="100,10 40,198 190,78 10,78 160,190"
+                style="fill:lime; stroke: blueviolet; stroke-width:5; fill-rule: nonzero; " />
+        </svg>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</body>
+
+</html>
